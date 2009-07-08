@@ -289,7 +289,7 @@ body {
 }
 
 .narrowcolumn{
-	width: 460px;
+	width: 710px;
 }
 
 .widecolumn {
@@ -298,7 +298,7 @@ body {
 
 .narrowcolumn {
 	float: left;
-	padding: 0 20px 20px 25px;
+	padding: 0 25px 25px 15px;
 	margin: 0px 0 0 10px;
 	}
 
