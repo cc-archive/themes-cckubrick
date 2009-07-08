@@ -59,13 +59,13 @@
   <div class="tool">  
     <a href="http://search.creativecommons.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/find.png"/> Find Other Student's Work</a>
   </div>
-  <div class="link">
+  <div class="<?php if (is_page('For Students')) { echo "activelink";} else { echo "link";}?>">
    For Students
   </div>
-<div class="link">
+<div class="<?php if (is_page('For Educators')) { echo "activelink";} else { echo "link";}?>">
    For Educators
   </div> 
-<div class="link">
+<div class="<?php if (is_page('For Parents')) { echo "activelink";} else { echo "link";}?>">
    For Parents
   </div> 
 <div class="link">

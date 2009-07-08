@@ -246,7 +246,7 @@ body {
 
 #cctools .link {
         float: left;
-	background-color: #F6F6F6;
+	background-color: none;
         padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 2px;
@@ -255,7 +255,7 @@ body {
 
 #cctools .activelink {
         float: left;
-        background-color: #C0C0C0;
+        background-color: #F6F6F6;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 2px;
