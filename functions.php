@@ -61,7 +61,7 @@ function cc_theme_options() {
 
   <div class="wrap">
    <h2>Header Toolbar</h2>
-   <p>Display the header toolbar (including worldwide, publish and find links) ?</p>
+   <p>Display the custom SJ header toolbar?</p>
    <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" name="i18n" method="post" accept-charset="utf-8">
     <input type="checkbox" name="cc_show_worldwide" size="45" id="cc_show_worldwide" <?=cc_show_worldwide()?'checked':''?> />
     <input type="hidden" name="cc_show_worldwide_submitted" value="true" />
