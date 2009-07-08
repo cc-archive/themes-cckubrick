@@ -19,7 +19,7 @@ function cc_show_worldwide() {
 }
 
 function cc_theme_menu() {
-  add_theme_page('Customize CC Kubrick', 'Customize CC Kubrick', 5, basename(__FILE__), 'cc_theme_options');
+  add_theme_page('Customize SJ Kubrick', 'Customize SJ Kubrick', 5, basename(__FILE__), 'cc_theme_options');
 }
 
 /* TODO: Make this a file upload instead of location reference. */
