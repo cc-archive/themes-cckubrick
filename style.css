@@ -62,7 +62,7 @@ body {
 	}
 
 #sidebar, #content {
-	border-top: 1px solid #d0d0d0;
+	border-top: 0px solid #d0d0d0;
 	margin-top: 0px;
 }
 
@@ -238,14 +238,36 @@ body {
 	}
 	
 #cctools {
-	text-align: right;
-	padding: 13px 10px;
+	text-align: center;
+	font-size: 120%;
+	padding: 3px 10px;
 	height: 17px;
 }
 
+#cctools .link {
+        float: left;
+	background-color: #F6F6F6;
+        padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+        padding-bottom: 4px;
+}
+
+#cctools .activelink {
+        float: left;
+        background-color: #C0C0C0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-bottom: 4px;
+}
+
+
 #cctools .tool {
 	float: right;
-	margin-left: 15px;
+	margin-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
 }
 
 #cctools img {

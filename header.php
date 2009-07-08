@@ -53,22 +53,24 @@
 </div>
 <? if (cc_show_worldwide()) { ?>
 <div id="cctools">
-  <div class="tool options">
-    <select name="sortby" onchange="orderby(this)">
-      <option value="">Select a jurisdiction</option>
-      <script type="text/javascript" src="http://www.creativecommons.org/includes/jurisdictions.js"></script>
-    </select>
-  </div>
   <div class="tool">
-    <a href="http://creativecommons.org/license/<?php 
-    $pieces = explode('.', parse_url(get_bloginfo('url'), PHP_URL_HOST));
-    $output = (strlen($pieces[0]) == 2) ? ("?jurisdiction=".$pieces[0]) : (""); 
-    echo $output; 
-    	?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/publish.png"/> License Your Work</a>
+    <a href="http://creativecommons.org/license/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/publish.png"/> License Your Work</a>
   </div>
   <div class="tool">  
-    <a href="http://search.creativecommons.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/find.png"/> Find CC Licensed Work</a>
+    <a href="http://search.creativecommons.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/find.png"/> Find Other Student's Work</a>
   </div>
+  <div class="link">
+   For Students
+  </div>
+<div class="link">
+   For Educators
+  </div> 
+<div class="link">
+   For Parents
+  </div> 
+<div class="link">
+   Blog
+  </div> 
 </div>
 <? } ?>
 <hr />
