@@ -21,25 +21,6 @@ Template Name: Main
                 <?php endwhile; endif; ?>
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
-<h3>Recent Posts:</h3>
-method one:<br />
-<?php wp_get_archives('title_li=&type=postbypost&limit=10'); ?>
-
-
-two:<br />
-<?php
-$how_many=5; //How many posts do you want to show
-require_once('wp-config.php'); // Change this for your path to wp-config.php file ?>
-<ul id="whats-new">
-<?
-$news=$wpdb->get_results("SELECT `ID`,`post_title` FROM $wpdb->posts
-WHERE `post_type`=\"post\" AND `post_status`=\"publish\" ORDER BY post_date DESC LIMIT $how_many");
-foreach($news as $np){
-printf ("<li><a href=\"%s\">%s</a></li>", get_permalink($np->ID),$np->post_title);
-} ?>
-</ul>
-</div>
-
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
