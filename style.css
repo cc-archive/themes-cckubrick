@@ -693,10 +693,8 @@ a img {
 
 .falbum-random {
 	width: 960px;
+	height: 75px;
 	text-align: center;
-	align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .falbum-thumbnail-nods {
