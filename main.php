@@ -22,15 +22,16 @@ Template Name: Main
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
 <h3>Recent Posts:</h3>
-<ul>
- <?php
- global $post;
- $myposts = get_posts('numberposts=5&offset=1&category=1');
- foreach($myposts as $post) :
- ?>
-    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
- <?php endforeach; ?>
- </ul> 
-</div>
+<?php
+$how_many=5; //How many posts do you want to show
+require_once('wp-config.php'); // Change this for your path to wp-config.php file ?>
+<ol id="whats-new">
+<?
+$news=$wpdb->get_results("SELECT `ID`,`post_title` FROM $wpdb->posts
+WHERE `post_type`=\"post\" AND `post_status`=\"publish\" ORDER BY post_date DESC LIMIT $how_many");
+foreach($news as $np){
+printf ("<li><a href=\"index.php?p=%s\">%s</a></li>", $np->ID,$np->post_title);
+}?>
+</ol>
 
 <?php get_footer(); ?>
