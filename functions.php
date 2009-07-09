@@ -7,6 +7,10 @@ if (get_option('cc_header_show_worldwide') == NULL) {
    add_option('cc_header_show_worldwide', true);
 }
 
+/* to enable local testing on WP (not WPMU) */
+if (!function_exists('get_current_site')) { function get_current_site() {} }
+if (!function_exists('licenseUri')) { function licenseUri() {} }
+
 /* theme options page */
 add_action ('admin_menu', 'cc_theme_menu');
 
