@@ -699,8 +699,9 @@ a img {
 
 .falbum-thumbnail-nods {
 	width: 75px;
+	display: block;
 	height: 75px;
-	float: left;
+	float: center;
 }
 
 
