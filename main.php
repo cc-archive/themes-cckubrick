@@ -39,4 +39,7 @@ printf ("<li><a href=\"%s\">%s</a></li>", get_permalink($np->ID),$np->post_title
 } ?>
 </ul>
 </div>
+
+<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
