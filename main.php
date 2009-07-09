@@ -25,8 +25,7 @@ Template Name: Main
 <h2>
 	<a href="<?php echo $falbum->create_url("show/recent"); ?>" title="View all recent photos">Recent Photos</a>
 </h2>
-<br />
-<?php echo $falbum->show_random(8,'Student Journalism 2.0',1,'s');?>
-<br />
+
+Recent posts:<br/>
 
 <?php get_footer(); ?>
