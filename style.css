@@ -538,7 +538,8 @@ html>body .entry li, .entry li {
 	}
 
 #commentform textarea {
-	width: 100%;
+	width: 98%;
+	float: left;
 	padding: 1px;
 	}
 
