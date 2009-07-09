@@ -22,6 +22,11 @@ Template Name: Main
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
 <h3>Recent Posts:</h3>
+method one:<br />
+<?php wp_get_archives('title_li=&type=postbypost&limit=10'); ?>
+
+
+two:<br />
 <?php
 $how_many=5; //How many posts do you want to show
 require_once('wp-config.php'); // Change this for your path to wp-config.php file ?>
