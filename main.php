@@ -23,7 +23,7 @@ Template Name: Main
 
 <div style="width: 960px;height: 100px;">
 
-<?php echo $falbum->show_recent(8,'Student Journalism 2.0',1,'s');?>
+<?php echo $falbum->show_random(8,'Student Journalism 2.0',1,'s');?>
 </div>
 </div>
 <?php get_footer(); ?>
