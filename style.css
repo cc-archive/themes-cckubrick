@@ -693,8 +693,7 @@ a img {
 
 .falbum-random {
 	width: 960px;
-	height: 80px;
-	float: left;
+	text-align: center;
 	align: center;
 }
 
