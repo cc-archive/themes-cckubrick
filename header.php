@@ -54,10 +54,10 @@
 <? if (cc_show_worldwide()) { ?>
 <div id="cctools">
   <div class="tool">
-    <a href="http://creativecommons.org/license/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/publish.png"/> License Your Work</a>
+    <a href="http://creativecommons.org/license/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/publish.png"/> License your work</a>
   </div>
   <div class="tool">  
-    <a href="http://search.creativecommons.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/find.png"/> Find Other Student's Work</a>
+    <a href="http://search.creativecommons.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/find.png"/> Find other students' work</a>
   </div>
   <div class="<?php if (is_page('For Students')) { echo "activelink";} else { echo "link";}?>">
   <a href="http://sj.creativecommons.org/for-students/">For Students</a>
