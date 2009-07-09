@@ -343,7 +343,8 @@ body {
 }
 
 #foooter {
-	margin: 10px auto;
+	margin: 0 auto;
+	padding: 0 0 0 1px;
 	margin-top: 15px;
 	width: 960px;
 	clear: both;
