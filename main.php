@@ -20,8 +20,8 @@ Template Name: Main
                 </div>
                 <?php endwhile; endif; ?>
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+</div>
 
 <?php echo $falbum->show_random(8,'Student Journalism 2.0',1,'s');?>
 
-</div>
 <?php get_footer(); ?>
