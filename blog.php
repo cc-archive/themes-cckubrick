@@ -16,8 +16,8 @@ require_once('wp-config.php'); // Change this for your path to wp-config.php fil
 $news=$wpdb->get_results("SELECT `ID`,`post_title` FROM $wpdb->posts
 WHERE `post_type`=\"post\" AND `post_status`=\"publish\" ORDER BY post_date DESC LIMIT $how_many");
 foreach($news as $np){
-printf ("<li><h3><a href=\"index.php?p=%s\">%s</a></h3></li>", $np->ID,$np->post_title);
-}?>
+printf ("<li><a href=\"%s\">%s</a></li>", get_permalink($np->ID),$np->post_title);
+} ?>
 </ul>
 </div>
 <?php get_footer(); ?>
