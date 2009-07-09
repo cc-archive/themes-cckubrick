@@ -532,14 +532,14 @@ html>body .entry li, .entry li {
 	}
 
 #commentform input {
-	width: 170px;
+	width: 160px;
 	padding: 2px;
 	margin: 5px 5px 1px 0;
 	}
 
 #commentform textarea {
 	width: 100%;
-	padding: 2px;
+	padding: 1px;
 	}
 
 #commentform #submit {
