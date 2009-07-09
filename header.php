@@ -60,16 +60,16 @@
     <a href="http://search.creativecommons.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/find.png"/> Find Other Student's Work</a>
   </div>
   <div class="<?php if (is_page('For Students')) { echo "activelink";} else { echo "link";}?>">
-  <a href="for-students/">For Students</a>
+  <a href="http://sj.creativecommons.org/for-students/">For Students</a>
   </div>
 <div class="<?php if (is_page('For Educators')) { echo "activelink";} else { echo "link";}?>">
-   <a href="for-educators/">For Educators</a>
+   <a href="http://sj.creativecommons.org/for-educators/">For Educators</a>
   </div> 
 <div class="<?php if (is_page('For Parents')) { echo "activelink";} else { echo "link";}?>">
-   <a href="for-parents/">For Parents</a>
+   <a href="http://sj.creativecommons.org/for-parents/">For Parents</a>
   </div> 
 <div class="link">
-   <a href="blog/">Blog</a>
+   <a href="http://sj.creativecommons.org/blog/">Blog</a>
   </div> 
 </div>
 <? } ?>
