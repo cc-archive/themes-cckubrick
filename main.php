@@ -22,10 +22,8 @@ Template Name: Main
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 </div>
 
-<h2>
-	<a href="<?php echo $falbum->create_url("show/recent"); ?>" title="View all recent photos">Recent Photos</a>
-</h2>
-
-Recent posts:<br/>
+<div style="width: 960px;height: 100px;">
+<?php echo $falbum->show_random(8,'Student Journalism 2.0',1,'s');?>
+</div>
 
 <?php get_footer(); ?>
