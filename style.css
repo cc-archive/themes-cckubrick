@@ -219,6 +219,7 @@ body {
 
 #page {
 	background-color: #fff;
+	position: relative;
 	margin: 10px auto;
 	margin-bottom: 20px;
 	padding: 10px 0;
