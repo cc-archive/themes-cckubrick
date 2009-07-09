@@ -22,6 +22,6 @@ Template Name: Main
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 </div>
 
-<?php echo $falbum->show_random(8,'Student Journalism 2.0',1,'s');?>
+<?php echo $falbum->show_random(11,'Student Journalism 2.0',1,'s');?>
 
 <?php get_footer(); ?>
