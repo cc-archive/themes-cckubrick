@@ -26,7 +26,7 @@ Template Name: Main
 	<a href="<?php echo $falbum->create_url("show/recent"); ?>" title="View all recent photos">Recent Photos</a>
 </h2>
 <br />
-<?php echo $falbum->show_recent(1,8,'s');?>
+<?php echo $falbum->show_recent(8,'Student Journalism 2.0',1,'m');?>
 <br />
 
 <?php get_footer(); ?>
