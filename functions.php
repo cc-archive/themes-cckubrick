@@ -78,12 +78,10 @@ function cc_theme_options() {
 
 
 ?>
-
 <?php
 /* Author: Nick Momrik
 Author URI: http://mtdewvirus.com/
 */
-
 function mdv_recent_posts($no_posts = 5, $before = '<li>', $after = '</li>', $hide_pass_post = true, $skip_posts = 0, $show_excerpts = false, $include_pages = false) {
     global $wpdb;
 	$time_difference = get_settings('gmt_offset');
