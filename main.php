@@ -21,7 +21,7 @@ Template Name: Main
                 <?php endwhile; endif; ?>
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
-<?php mdv_recent_posts(); ?>
+<?php mdv_recent_posts(10, '', '<br />', true, 5, true, false)); ?>
 
 </div>
 
