@@ -1,7 +1,7 @@
 <?php
 
 if ( function_exists('register_sidebars') )
-	register_sidebars(1);
+	register_sidebars(0);
 
 if (get_option('cc_header_show_worldwide') == NULL) {
    add_option('cc_header_show_worldwide', true);
