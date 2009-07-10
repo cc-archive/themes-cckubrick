@@ -224,12 +224,12 @@ body {
 	margin-bottom: 20px;
 	padding: 10px 0;
 	padding-bottom: 5px;
-	width: 960px;
+	width: 900px;
 	}
 	
-	#header 	{ margin: 0 !important; margin: 0 0 0 10px !important; padding: 1px; height: 85px; width: 938px; }
+	#header 	{ margin: 0 !important; margin: 0 0 0 10px !important; padding: 1px; height: 85px; width: 878px; }
 
-	#headerimg 	{ margin: 12px 18px 0; height: 75px; width: 900px;}
+	#headerimg 	{ margin: 12px 18px 0; height: 75px; width: 840px;}
 
 	#headerimg img.cclogo {
 		float: left;
@@ -291,11 +291,11 @@ body {
 }
 
 .narrowcolumn{
-	width: 890px;
+	width: 830px;
 }
 
 .widecolumn {
-	width: 890px;
+	width: 830px;
 }
 
 .narrowcolumn {
@@ -347,7 +347,7 @@ body {
 	margin: 0 auto;
 	padding: 0px;
 	margin-top: 15px;
-	width: 960px;
+	width: 900px;
 	clear: both;
 	}
 
@@ -595,7 +595,7 @@ html>body .entry li, .entry li {
 #sidebar
 {
 	padding: 20px 10px 10px 10px;
-	width: 960px;
+	width: 900px;
 	height: 200px;
 	}
 
@@ -692,7 +692,7 @@ a img {
 /* End Various Tags & Classes*/
 
 .falbum-random {
-	width: 960px;
+	width: 900px;
 	height: 75px;
 	text-align: center;
 }
