@@ -21,8 +21,9 @@ Template Name: Main
                 <?php endwhile; endif; ?>
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
-<h3>Recent Posts:</h3><br />
+<div style="width: 800px; align: center; text-align: left;"><h3>Recent Posts:</h3><br />
 <?php mdv_recent_posts(10, '', '<br />', true, 0, true, false); ?>
+</div>
 
 </div>
 
