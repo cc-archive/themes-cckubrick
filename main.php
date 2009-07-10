@@ -22,7 +22,7 @@ Template Name: Main
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
 <div style="width: 700px; align: center; text-align: left;"><h3>Recent Posts:</h3><br />
-<?php mdv_recent_posts(10, '', '<br />', true, 0, true, false); ?>
+<?php mdv_recent_posts(10, '<span style="font-size: 130%;"><strong>', '</strong></span><br />', true, 0, true, false); ?>
 </div>
 
 </div>
