@@ -20,6 +20,9 @@ Template Name: Main
                 </div>
                 <?php endwhile; endif; ?>
         <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+
+<?php mdv_recent_posts(); ?>
+
 </div>
 
 <?php echo $falbum->show_random(12,'Student Journalism 2.0',1,'s');?>
