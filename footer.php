@@ -8,7 +8,7 @@
 <a href="<?=licenseUri()?>"></a>
 <span style="font-size:80%;">
 Except where otherwise <a href="http://creativecommons.org/policies">noted</a>, content on this site is
-licensed under a <a rel="license" href="<?#licenseUri()?>">Creative Commons Attribution United States 3.0 License</a></span>
+licensed under a <a rel="license" href="<?#licenseUri()?>">Creative Commons Attribution 3.0 Unported License</a></span>
 </p>
 </div>
 
