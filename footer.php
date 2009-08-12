@@ -7,7 +7,8 @@
 		<!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
 <span style="font-size:85%;">
 Except where otherwise <a href="http://creativecommons.org/policies">noted</a>, content on this site is
-licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a></span>
+licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a></span><br />
+<a href="http://creativecommons.org/terms">Terms of use</a> | <a href="http://creativecommons.org/privacy">Privacy policy</a> | <a href="http://creativecommons.org/policies">Policies</a>
 </p>
 </div>
 
