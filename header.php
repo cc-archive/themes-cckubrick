@@ -69,7 +69,7 @@
    <a href="http://sj.creativecommons.org/for-parents/">For Parents</a>
   </div> 
 <div class="<?php if (is_page('blog')) { echo "activelink";} else { echo "link";}?>">
-   <a href="http://sj.creativecommons.org/blog/">Blog</a>
+   <a href="http://sj.creativecommons.org/2009/">Blog</a>
   </div> 
 </div>
 <? } ?>
