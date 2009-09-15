@@ -15,7 +15,7 @@ Author URI: http://creativecommons.org/
 /* Begin Typography & Colors */
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
-	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-family: Arial, Sans-Serif;
 	background-color: #e1e3d9;
 	color: #333;
 	text-align: center;
@@ -240,7 +240,7 @@ body {
 	
 #cctools {
 	text-align: center;
-	font-size: 130%;
+	font-size: 150%;
 	padding: 3px 10px;
 	height: 17px;
 }
@@ -250,7 +250,7 @@ body {
 	background-color: none;
         padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 2px;
+	padding-top: 4px;
         padding-bottom: 4px;
 }
 
@@ -261,7 +261,7 @@ body {
 		border-width: 1px;
 		padding-left: 10px;
         padding-right: 10px;
-        padding-top: 2px;
+        padding-top: 4px;
         padding-bottom: 4px;
 }
 
@@ -270,8 +270,8 @@ body {
 	float: right;
 	margin-left: 0px;
 	margin-right: 10px;
-        padding-top: 2px;
-        padding-bottom: 2px;
+        padding-top: 4px;
+        padding-bottom: 4px;
 }
 
 #cctools img {
