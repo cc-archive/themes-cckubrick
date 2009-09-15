@@ -97,11 +97,12 @@ function mdv_recent_posts($no_posts = 5, $before = '<li>', $after = '</li>', $hi
 		foreach ($posts as $post) {
 			$post_title = stripslashes($post->post_title);
 			$permalink = get_permalink($post->ID);
-			$output .= $before . '<a href="' . $permalink . '" rel="bookmark" title="Permanent Link: ' . htmlspecialchars($post_title, ENT_COMPAT) . '">' . htmlspecialchars($post_title) . '</a>';
+			$output .= $before . '<br /><a href="' . $permalink . '" rel="bookmark" 
+title="Permanent Link: ' . htmlspecialchars($post_title, ENT_COMPAT) . '">' . htmlspecialchars($post_title) . '</a>';
 			$output .= $after;
 			if($show_excerpts) {
 				$post_excerpt = stripslashes($post->post_excerpt);
-				$output.= '<br />' . $post_excerpt;
+				$output.= $post_excerpt . '<br />';
 			}
 		}
 	} else {
