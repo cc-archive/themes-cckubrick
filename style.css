@@ -256,8 +256,10 @@ body {
 
 #cctools .activelink {
         float: left;
-        background-color: #F6F6F6;
-        padding-left: 10px;
+        background-color: #E1E3D9;
+        border-style: inset;
+		border-width: 1px;
+		padding-left: 10px;
         padding-right: 10px;
         padding-top: 2px;
         padding-bottom: 4px;
