@@ -56,9 +56,9 @@
   <div class="tool">
     <a href="http://creativecommons.org/license/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/publish.png"/> License your work</a>
   </div>
-  <div class="tool">  
+<!--  <div class="tool">  
     <a href="http://search.creativecommons.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/find.png"/> Find other students' work</a>
-  </div>
+  </div> -->
   <div class="<?php if (is_page('For Students')) { echo "activelink";} else { echo "link";}?>">
   <a href="http://sj.creativecommons.org/for-students/">For Students</a>
   </div>
