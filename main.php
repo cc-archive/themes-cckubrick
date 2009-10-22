@@ -29,7 +29,7 @@ new TWTR.Widget({
   type: 'profile',
   rpp: 3,
   interval: 6000,
-  width: '400',
+  width: '410',
   height: '250',
   theme: {
     shell: {
@@ -56,7 +56,7 @@ new TWTR.Widget({
 </div>
 <div style="float:right;">
 <script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US"></script><script 
-type="text/javascript">FB.init("3aa0c2ba1f7528fc67a5f24b48966f96");</script><fb:fan profile_id="154018086889" stream="0" connections="14" width="400"></fb:fan><div 
+type="text/javascript">FB.init("3aa0c2ba1f7528fc67a5f24b48966f96");</script><fb:fan profile_id="154018086889" stream="0" connections="14" width="410"></fb:fan><div 
 style="font-size:12px; 
 padding-left:10px"><a href="http://www.facebook.com/pages/Student-Journalism-20/154018086889">Student Journalism 2.0 on Facebook</a> </div>
 </div></div>

@@ -68,6 +68,9 @@
 <div class="<?php if (is_page('For Parents')) { echo "activelink";} else { echo "link";}?>">
    <a href="http://sj.creativecommons.org/for-parents/">For Parents</a>
   </div> 
+<div class="<?php if (is_page('Press')) { echo "activelink";} else { echo "link";}?>">
+   <a href="http://sj.creativecommons.org/press/">Press</a>
+  </div> 
 <div class="<?php if (is_archive()) { echo "activelink";} else { echo "link";}?>">
    <a href="http://sj.creativecommons.org/2009/">Blog</a>
   </div> 
